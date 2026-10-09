@@ -6,7 +6,7 @@ import MovieList from '../MovieList';
 jest.mock('axios');
 
 const mockMovies = [
-  { id: 1, title: 'Movie 1' },
+  { id: 1, title: 'Movie 3' },
   { id: 2, title: 'Movie 2' },
 ];
 
