@@ -1,3 +1,14 @@
+## Project Submission
+
+Workflows: `.github/workflows/frontend-ci.yaml`, `backend-ci.yaml`, `frontend-cd.yaml`, `backend-cd.yaml`
+
+Screenshots are in the `screenshots` folder:
+- Frontend running on EKS (movie list)
+- Backend `/movies` response
+- ECR images tagged with the git SHA
+- All workflows passing, and failing test/lint pull requests
+
+  
 # Movie Picture Pipeline
 
 You've been brought on as the DevOps resource for a development team that manages a web application that is a catalog of Movie Picture movies. They're in dire need of automating their development workflows in hopes of accelerating their release cycle. They'd like to use Github Actions to automate testing, building and deploying their applications to an existing Kubernetes cluster.
